@@ -1,0 +1,21 @@
+generated: '2026-07-20'
+method: searched
+source: https://trust.polimorphic.com/
+probe: false
+url: https://trust.polimorphic.com/
+platform: vanta
+title: Polimorphic Trust Center
+description: >-
+  Polimorphic publishes a hosted Trust Center (Vanta-powered) exposing its live security posture,
+  compliance certifications, policies, subprocessors, and gated documents for government customers.
+certifications: []
+notes: >-
+  Trust Center verified live (og:title "Polimorphic Trust Center"; og:image served from
+  app.vanta.com). The certifications list and policy documents are rendered client-side by the Vanta
+  trust-center app and behind a request-access gate, so specific named certifications could not be
+  captured verbatim in this pass. Marketing copy states the platform is "built for security and
+  compliance." Do not assert specific frameworks (SOC 2, CJIS, StateRAMP, etc.) until confirmed from
+  the Trust Center itself.
+evidence:
+- source: https://trust.polimorphic.com/
+  keywords: [trust center, compliance, vanta]
