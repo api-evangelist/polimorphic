@@ -1,0 +1,43 @@
+# Pricing transcribed from the provider's own page — see provenance. Numbers are quoted, not derived.
+generated: '2026-10-07'
+method: searched
+source: https://www.polimorphic.com/pricing
+sources:
+- https://www.polimorphic.com/pricing
+provenance:
+  tool: all/0-working/economics/harvest_pricing.py
+  run: 20261007T104522
+  grounding: every price_text was found verbatim in the fetched page text
+audience: business-product
+pricing_basis: negotiated
+delivery:
+  delivery: managed
+  method: page
+  read: '2026-10-07'
+published: false
+note: Tiered packages listed with no numeric prices; page directs to contact sales ('Get in Touch').
+plan_count: 5
+plans:
+- name: Activate
+  price_text: Get in Touch
+  period: none
+  included_quota: Voicemail and phone tree; Chatbot lite + search lite; Outbound email; Email add-in (form
+    letters); Basic case logging; Contact book and GIS
+- name: Connect
+  price_text: Get in Touch
+  period: none
+  included_quota: 'Voice: inbound & complex routing; AI chat & search (full); AI email; SMS; Kiosk; Social
+    media; Outbound SMS, email & calls; Interviews & Q&A; 2 out-of-the-box integrations'
+- name: Deliver
+  price_text: Get in Touch
+  period: none
+  included_quota: Full case management; Workflows; AI pre-review; PRISM records; Pre-loaded contact data;
+    Internal AI assistant; 1 integration included
+- name: Unify
+  price_text: Get in Touch
+  period: none
+  included_quota: Everything in Connect and Deliver; 4 integrations included
+- name: Enterprise
+  price_text: Get in Touch
+  period: none
+  included_quota: Everything in Unify; Unlimited integrations; Custom build; Dedicated implementation
