@@ -71,6 +71,8 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: Plans
+  url: plans/polimorphic-plans-pricing.yml
 - type: Website
   url: https://www.polimorphic.com/
 - type: Integrations
