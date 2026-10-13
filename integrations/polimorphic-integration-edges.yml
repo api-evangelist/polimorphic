@@ -1,16 +1,34 @@
 generated: '2026-10-12'
-method: none
+method: searched
 source:
 - https://zapier.com/apps/polimorphic/integrations
 - https://n8n.io/integrations/polimorphic/
 - https://composio.dev/toolkits/polimorphic
 - https://monid.ai/tools/polimorphic
 checked:
+- https://aws.amazon.com/marketplace/
 - https://composio.dev/toolkits/polimorphic
 - https://monid.ai/tools/polimorphic
 - https://n8n.io/integrations/polimorphic/
 - https://zapier.com/apps/polimorphic/integrations
 summary: null
 marketplace_apps: []
-edges: []
+edges:
+- partner_name: AWS Marketplace
+  partner: amazon-web-services
+  partner_match: aggregator
+  type: marketplace
+  marketplace: aws-marketplace
+  channel: distribution
+  relationship: platform-app
+  direction: provider-built
+  evidence: https://aws.amazon.com/marketplace/seller-profile?id=seller-kh26mlxlbtawo
+  listing_count: 3
+  apps:
+  - Polimorphic CRM and Workflows
+  - Polimorphic AI Voice
+  - Polimorphic AI Search and Chat
+  seller_name: Polimorphic
+  detected_by: sweep-cloud-marketplaces.py
+  detected: '2026-10-13'
 templates: []
